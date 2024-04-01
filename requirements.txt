@@ -1,10 +1,10 @@
 accelerate==0.18.0
 datasets
 flexgen==0.1.7
-gradio==3.24.1
+gradio==4.22.0
 markdown
 numpy
-Pillow>=9.5.0
+Pillow>=10.3.0
 peft==0.2.0
 requests
 rwkv==0.7.3
