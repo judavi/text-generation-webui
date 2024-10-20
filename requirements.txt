@@ -1,7 +1,7 @@
 accelerate==0.18.0
 datasets
 flexgen==0.1.7
-gradio==3.24.1
+gradio==4.44.0
 markdown
 numpy
 Pillow>=9.5.0
@@ -16,3 +16,4 @@ git+https://github.com/huggingface/transformers
 bitsandbytes==0.37.2; platform_system != "Windows"
 llama-cpp-python==0.1.30; platform_system != "Windows"
 https://github.com/abetlen/llama-cpp-python/releases/download/v0.1.30/llama_cpp_python-0.1.30-cp310-cp310-win_amd64.whl; platform_system == "Windows"
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
